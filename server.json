@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/copernicus-dataspace",
+  "title": "Copernicus Dataspace",
+  "description": "European Sentinel and Copernicus Contributing Mission archive from the EU's Copernicus Data Space…",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/copernicus-dataspace",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-copernicus-dataspace",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/copernicus-dataspace/mcp"
+    }
+  ]
+}
