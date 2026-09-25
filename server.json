@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/copernicus-dataspace",
   "title": "Copernicus Dataspace",
   "description": "European Sentinel and Copernicus Contributing Mission archive from the EU's Copernicus Data Space…",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/copernicus-dataspace",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-copernicus-dataspace",
