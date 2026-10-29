@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-copernicus-dataspace",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "European Sentinel and Copernicus Contributing Mission archive from the EU's Copernicus Data Space Ecosystem — search Sentinel-1/2/3/5P, Copernicus DEM, land-cover and burnt-area products by area and date and get item ids, footprints, dates and product asset paths.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-copernicus-dataspace": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "copernicus-dataspace"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-copernicus-dataspace.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/copernicus-dataspace",
   "pipeworx": {
-    "sourceHash": "v1-18ea4c0d1d5dae8bb12a18e22696a7edd42fab704f1588ea10b3bd7ce70bba1b",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "copernicus-dataspace",
+    "gatewaySlug": "copernicus-dataspace",
+    "sourceHash": "v1-78460ceed31d424d5f3fda07120c6c4f2b1371eb91607a9ae5d22941304c1bec",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
