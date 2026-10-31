@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-copernicus-dataspace",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "European Sentinel and Copernicus Contributing Mission archive from the EU's Copernicus Data Space Ecosystem — search Sentinel-1/2/3/5P, Copernicus DEM, land-cover and burnt-area products by area and date and get item ids, footprints, dates and product asset paths.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "copernicus-dataspace",
     "gatewaySlug": "copernicus-dataspace",
-    "sourceHash": "v1-78460ceed31d424d5f3fda07120c6c4f2b1371eb91607a9ae5d22941304c1bec",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-431b1390b54298cf512e4e5dfc909ce873f75fbe1b8cee6cdc1b94e60104f138",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
